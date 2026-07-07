@@ -86,3 +86,21 @@ img{
 .hero-left-btn {
     margin-top: 30px;
 }
+
+/* About section */
+.about-parent{
+    background-color: #FFF8F3;
+    margin: 70px auto;
+    padding: 60px;
+    border-radius: 10px;
+    text-align: center;
+}
+.about-parent p{
+    margin: 20px 0;
+    color: rgb(173, 173, 173);
+}
+.about-box-parent{
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
