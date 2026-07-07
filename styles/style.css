@@ -12,7 +12,7 @@
 
 .outline-btn {
     border: 1px solid #FD6E0A;
-    background-color:white;
+    background-color: white;
     padding: 10px 20px;
     border-radius: 5px;
     font-weight: bold;
@@ -40,13 +40,6 @@
     justify-content: space-between;
     padding: 15px 0;
 }
-
-* {
-    margin: 0;
-    padding: 0;
-    font-family: "Open Sans", sans-serif;
-}
-
 .navbar ul {
     display: flex;
     align-items: center;
@@ -58,7 +51,21 @@
     text-decoration: none;
 }
 
+/* Resat style */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+}
+img{
+    max-width: 100%;
+}
+
 /* Hero section style */
+.hero-parent-root {
+    background-color: #FFF8F3;
+}
+
 .hero-content {
     display: flex;
     justify-content: space-between;
@@ -69,8 +76,13 @@
     font-size: 28px;
     font-weight: 600;
 }
+
 .hero-left h2 {
     font-weight: bold;
     font-size: 60px;
+    margin-bottom: 20px;
+}
 
+.hero-left-btn {
+    margin-top: 30px;
 }
